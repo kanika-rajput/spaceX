@@ -1,0 +1,93 @@
+/* ensure all pages have Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.md-container {
+  max-width: 800px;
+  padding-top: 2rem;
+}
+
+.sml-card {
+  width: 22rem;
+  margin: 1rem 0;
+}
+
+.cntr-footer {
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+}
+
+.sml-logo {
+  height: 1em;
+  margin-left: 10px;
+}
+
+.layout-section{
+  background: #F2F2F2;
+  padding: 20px;
+}
+
+.year-button{
+  color: #000;
+  background-color: #C5E09B;
+  border: none;
+}
+
+.filter-row{
+  margin-bottom: 10px;
+}
+
+.filter-row .filter-column{
+  text-align: center;
+} 
+
+.filter-row .filter-column button{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 30px;
+}
+
+.filter-section{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.filter-section p{
+  font-size: 21px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin: 15px auto;
+}
+
+.data-block{
+  background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.data-content{
+  display: flex;
+}
+
+.mission-name{
+  color: blue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mission-image{
+  background: #F2F2F2;
+  width: 100%;
+}
+
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus  {
+  color: #000;
+  background-color: #7CBA01;
+  border-color: none;
+}
