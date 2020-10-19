@@ -9,3 +9,4 @@ Below is the description of the approach that is used:
 4) The website is responsive.
 5) Lighthouse score is 84.<img src="https://github.com/kanika-rajput/spaceX/blob/master/Capture.PNG" />
 6) Website is hosted in vercel. Link: https://space-x-kanika.vercel.app/.
+7) Testing is done with jest and enzymne of data component.
